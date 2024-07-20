@@ -42,7 +42,7 @@ app.MapControllers();
 
 app.MapGet("/ping", () => "pong");
 
-app.Run();
+app.Run("http://0.0.0.0:80");
 
 var summaries = new[]
 {
